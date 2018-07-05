@@ -15,7 +15,7 @@ ostream & operator << (ostream &stream, SimpleGraph &graph);
 class SimpleNode {
 public:
 	void Print(ostream &stream) {
-		stream << "node" << nodeName << "'s adj node : ";
+		stream << "노드" << nodeName << "의 인접노드 : ";
 		for (int i = 0; i < numOfAdjs; i++) {
 			stream << adjs[i] << " ";
 		}
